@@ -7,7 +7,7 @@ import pickle
 #Open3D was used to visualize the point cloud of projected points
 #import open3d as o3d
 
-from Calibration.Geometric.util import rescale, crop, display
+from Geometric_Calib.Calibration.Geometric.util import rescale, crop, display
 
 # Class that treats the geometric calibration of fisheye lens
 class GeometricCalib:
