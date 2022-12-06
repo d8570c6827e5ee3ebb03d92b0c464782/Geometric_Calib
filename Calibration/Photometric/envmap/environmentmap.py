@@ -7,7 +7,7 @@ import numpy as np
 from scipy.ndimage.interpolation import map_coordinates, zoom
 from skimage.transform import resize_local_mean, downscale_local_mean
 
-from hdrio import imread
+from Geometric_Calib.Calibration.Photometric.hdrio import imread
 
 from .tetrahedronSolidAngle import tetrahedronSolidAngle
 from .projections import *
