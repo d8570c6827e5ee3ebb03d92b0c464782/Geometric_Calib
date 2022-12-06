@@ -2,7 +2,7 @@ from os import environ
 environ["OPENCV_IO_ENABLE_OPENEXR"] = "true"
 import os,sys
 
-from envmap.environmentmap import EnvironmentMap
+from Geometric_Calib.Calibration.Photometric.envmap.environmentmap import EnvironmentMap
 import pickle
 import matplotlib.pyplot as plt
 
