@@ -2,7 +2,7 @@ import os
 import subprocess
 
 import numpy as np
-import imageio.v3 as imageio
+import imageio
 from skylibs import __version__
 
 
